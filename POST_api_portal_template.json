@@ -1,0 +1,74 @@
+{
+  "Name": "apiName",
+  "Version": "1",
+  "ApiEulaUuid": "c9406345-eb76-11e3-b0cd-000nosaj86a8",
+  "PrivateDescription": "",
+  "AccessStatus": "PUBLIC",
+  "Description": "",
+  "SsgUrl": "ssgUrl",
+  "PolicyEntities": {
+    "results": [
+      {
+        "PolicyEntityUuid": "cc9a43a5-d67c-4e86-81c4-f0ca58b93a1b",
+        "PolicyTemplateArguments": {
+          "results": [
+            {
+              "Value": "2",
+              "Name": "password",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "cc9a43a5-d67c-4e86-81c4-f0ca58b93a1b"
+            },
+            {
+              "Value": "2",
+              "Name": "portalHostName",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "cc9a43a5-d67c-4e86-81c4-f0ca58b93a1b"
+            },
+            {
+              "Value": "2",
+              "Name": "userName",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "cc9a43a5-d67c-4e86-81c4-f0ca58b93a1b"
+            }
+          ]
+        }
+      },
+      {
+        "PolicyEntityUuid": "66728e8d-116b-4021-b74b-dfaabf2ed4f0",
+        "PolicyTemplateArguments": {
+          "results": [
+            {
+              "Value": "false",
+              "Name": "debugMode",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "66728e8d-116b-4021-b74b-dfaabf2ed4f0"
+            },
+            {
+              "Value": "apim.dev.ca.com",
+              "Name": "portalHostName",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "66728e8d-116b-4021-b74b-dfaabf2ed4f0"
+            },
+            {
+              "Value": "false",
+              "Name": "sslEnabled",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "66728e8d-116b-4021-b74b-dfaabf2ed4f0"
+            },
+            {
+              "Value": "72dc7738-a2b5-4ab5-9956-bfea85eccf95",
+              "Name": "tenantUuid",
+              "ApiUuid": "{{GENERATED_GUID}}",
+              "PolicyTemplateUuid": "66728e8d-116b-4021-b74b-dfaabf2ed4f0"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "AuthenticationType": "NONE",
+  "AuthenticationParameters": "{}",
+  "ApiLocationUrl": "www.pssg.com",
+  "OrgUuid": "4c35f9cd-8eb2-11e3-ae6b-000c2911a4db",
+  "Uuid": "{{GENERATED_GUID}}"
+}
